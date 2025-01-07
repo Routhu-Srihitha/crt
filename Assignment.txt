@@ -1,0 +1,4 @@
+write a condition to check greatest numbers among 3 numners
+let a=20;
+let b=10;
+let c=40;

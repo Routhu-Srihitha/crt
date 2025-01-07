@@ -43,5 +43,6 @@
 //let a;
 //console.log(a , typeof(a));
 
-let x = null;
-console.log(x , typeof(x));
+//let x = null;
+//console.log(x , typeof(x));
+
