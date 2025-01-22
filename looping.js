@@ -42,8 +42,8 @@
     //console.log ("Hello JavaScript");
 //}while(i>=5);
 
-function addToCart(){
-    alert("product is added to cart sucessfully");
-    document.body.style.background="red";
-}
-addToCart();
+//function addToCart(){
+   // alert("product is added to cart sucessfully");
+    //document.body.style.background="red";
+//}
+//addToCart();
