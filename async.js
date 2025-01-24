@@ -96,3 +96,4 @@ async function fetchUsers(){
   console.log(data);
 }
 fetchUsers()
+
