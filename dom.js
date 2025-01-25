@@ -66,12 +66,24 @@
 //     console.log("double click");
 // })
 
-//let demo =document.getElementById("demo");
+let demo =document.getElementById("demo");
 
-//demo.addEventListener("mouseover",()=>{
-  //  document.body.style.backgroundColor="red";
-//})
+demo.addEventListener("mouseover",()=>{
+    document.body.style.backgroundColor="red";
+})
 
-//demo.addEventListener("mouseleave",()=>{
-   // document.body.style.backgroundColor="teal";
-//})
+demo.addEventListener("mouseleave",()=>{
+    document.body.style.backgroundColor="teal";
+})
+
+
+let bgColor = document.querySelectorAll(".bgColor");
+[...bgColor].map(element=>{
+    element.addEventListener("mouseover",()=>{
+        element.style.backgroundColor = element.innerText;
+
+    });
+    element.addEventListener("mouseleave",()=>{
+        element.style.backgroundColor = "transparent";
+    })
+})
